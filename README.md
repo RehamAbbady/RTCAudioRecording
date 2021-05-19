@@ -4,7 +4,7 @@ the code is generic and can be modified to fit your own buissness logic and need
 
 ## Generic steps
 ### Get ICE servers
-first, get ICE servers and their credential
+first, get ICE servers and their credentials
 ### Initialize peer connection
 after initializing peer connection, create an audio transceiver and choose the transceiver direction (Send,Receive or both), in this case, it's Receive
 then create a data channel
