@@ -60,10 +60,9 @@ namespace TestNetCoreConsole
 
                 Console.WriteLine("Peer connection initialized.");
 
-                Transceiver transceiver = null;
 
                 //create audio transceiver
-                transceiver = pc.AddTransceiver(MediaKind.Audio);
+                Transceiver transceiver = pc.AddTransceiver(MediaKind.Audio);
                 transceiver.DesiredDirection = Transceiver.Direction.ReceiveOnly;
                 Console.WriteLine("Create audio transceiver ...");
 
