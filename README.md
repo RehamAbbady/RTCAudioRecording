@@ -1,5 +1,5 @@
-# RTCAudioRecording
-this is a simple console app that uses [MixedReality-WebRTC](https://github.com/microsoft/MixedReality-WebRTC) to capture and record audio stream from an RTC service
+# SimpleRTC
+this is a simple console app that uses [MixedReality-WebRTC](https://github.com/microsoft/MixedReality-WebRTC) to output and record audio stream from an RTC service
 the code is generic and can be modified to fit your own business logic and need.
 
 ## Generic steps
